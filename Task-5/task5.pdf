@@ -1,0 +1,6 @@
+Num FIFO faults: 100 (5.00% of references)
+Num LRU faults: 100 (5.00% of references)
+Num secondChance faults: 100 (5.00% of references)
+Num enhancedSecondChance faults: 95 (4.75% of references), Disk writes: 50
+Because there is only 0-99 pages, since we have more physical frames than possible pages to reference we simply run the cold start and never have to replace a page again,
+thus remaining at 100 faults.

@@ -1,0 +1,5 @@
+Num FIFO faults: 965 (48.25% of references)
+Num LRU faults: 962 (48.10% of references)
+Num secondChance faults: 965 (48.25% of references)
+Num enhancedSecondChance faults: 969 (48.45% of references), Disk writes: 482
+With more physical frames there are less pages that are not in our current memory, so we dont encounter as many page faults.
